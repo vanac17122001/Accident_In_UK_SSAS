@@ -1,0 +1,110 @@
+﻿<DeploymentSnapshot xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns:ddl400="http://schemas.microsoft.com/analysisservices/2012/engine/400" xmlns:ddl400_400="http://schemas.microsoft.com/analysisservices/2012/engine/400/400" xmlns:ddl500="http://schemas.microsoft.com/analysisservices/2013/engine/500" xmlns:ddl500_500="http://schemas.microsoft.com/analysisservices/2013/engine/500/500" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0">
+  <Target>
+    <Database>AccidentsInUK</Database>
+    <Server>DESKTOP-5QVLS2S\ANHVAN</Server>
+    <ConnectionString>Data Source=DESKTOP-5QVLS2S\ANHVAN;Timeout=0</ConnectionString>
+  </Target>
+  <Options>
+    <TransactionalDeployment>false</TransactionalDeployment>
+    <PartitionDeployment>DeployPartitions</PartitionDeployment>
+    <RoleDeployment>DeployRolesRetainMembers</RoleDeployment>
+    <ProcessingOption>DoNotProcess</ProcessingOption>
+    <OutputScript></OutputScript>
+    <ImpactAnalysisFile></ImpactAnalysisFile>
+    <ConfigurationSettingsDeployment>Deploy</ConfigurationSettingsDeployment>
+    <OptimizationSettingsDeployment>Deploy</OptimizationSettingsDeployment>
+    <WriteBackTableCreation>UseExisting</WriteBackTableCreation>
+  </Options>
+  <Snapshot>
+    <ObjectSnapshots>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.RelationalDataSource</Type>
+        <TimeStamp>/iXkc1Kktz0xZ914XmWLYFAX1qg=4/10/2023 12:49:20 AM4/10/2023 12:49:20 AM</TimeStamp>
+        <ID>
+          <String>Accidents In UK</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.DataSourceView</Type>
+        <TimeStamp>8RAb6u4dKLROL27LCFO7O6A3qwE=4/10/2023 12:49:31 AM4/10/2023 12:49:31 AM</TimeStamp>
+        <ID>
+          <String>Accidents In UK</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>NDmLDdz19UGY6ZGlUHYmf8oexkc=4/10/2023 12:53:07 AM4/10/2023 12:49:43 AM</TimeStamp>
+        <ID>
+          <String>Dim Police Force</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>wfpTattRsYCbGi2cbJlcG4EHsbw=4/10/2023 12:53:07 AM4/10/2023 12:49:43 AM</TimeStamp>
+        <ID>
+          <String>Dim Light Conditions</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>YuIPW67g+auiNJvGpKhsd0QtYmU=4/10/2023 12:53:07 AM4/10/2023 12:49:43 AM</TimeStamp>
+        <ID>
+          <String>Dim Accident Severity</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>wr37j6PYHtvke1HVbUlAV3InSUA=4/10/2023 12:53:07 AM4/10/2023 12:49:43 AM</TimeStamp>
+        <ID>
+          <String>Dim Weather Conditions</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>wqN+YvvZh6g3Eher1XwV8PySKUU=4/10/2023 12:53:07 AM4/10/2023 12:49:43 AM</TimeStamp>
+        <ID>
+          <String>Dim Urban Or Rural Area</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>v6VFoMt+khY2MBi8TPy/Ixj5Ptk=4/10/2023 12:53:07 AM4/10/2023 12:49:43 AM</TimeStamp>
+        <ID>
+          <String>Dim Time</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>SpHx563bnbUtawcjbj6rwHGQV0Q=4/10/2023 12:53:07 AM4/10/2023 12:49:43 AM</TimeStamp>
+        <ID>
+          <String>Dim Road Type</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>B8TrhYy9OsYWf1/pA8rDtGOPTWc=4/10/2023 1:11:56 AM4/10/2023 12:49:43 AM</TimeStamp>
+        <ID>
+          <String>Dim Date</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Cube</Type>
+        <TimeStamp>rhrV74N22l98TPVqDLCtNJjfMRA=4/10/2023 1:11:56 AM4/10/2023 12:49:43 AMeQ4zrt1+Dx20lRc6CVfZUArDF9A=4/10/2023 1:11:56 AM4/10/2023 12:49:43 AM</TimeStamp>
+        <ID>
+          <String>Accidents In UK</String>
+        </ID>
+      </ObjectSnapshot>
+    </ObjectSnapshots>
+    <DatabaseSnapshot>
+      <Type>Microsoft.AnalysisServices.Database</Type>
+      <TimeStamp>m0ZtxuIG24DGlYGdYtcbBJ7DEBc=4/10/2023 12:48:37 AM4/10/2023 12:48:37 AM</TimeStamp>
+      <ID>
+        <String>AccidentsInUK</String>
+      </ID>
+    </DatabaseSnapshot>
+    <Granularity>Coarse</Granularity>
+  </Snapshot>
+  <AssemblyLocations />
+  <ProcessingComplete>true</ProcessingComplete>
+  <LastDeployed>2023-04-09T18:17:53.996667Z</LastDeployed>
+</DeploymentSnapshot>
